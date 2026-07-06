@@ -1,0 +1,42 @@
+postgreSQl Data Types
+-------------------------------------
+---> Numeric Datatypes.
+---> Character Datatypes.
+---> Boolean Datatypes.
+---> Data and Time Types.
+
+-------------------------------------------
+NUMERIC DATATYPES 
+-------------------------------------------
+
+small int          |  2 bytes integer          | age 
+int                |  4 bytes integer          | quantity
+big int            |  8 bytes integer          | views big int
+Decimal(p,s)       | 
+Numeric(p,s)       |  exact precision          | Price Numeric (8,2)
+real               |  4 bytes floating points  | rating real 
+double precision   |  8 bytes floating points  | accuracy
+serial             |  auto increment integer   | Id
+
+---------------------------------------------
+
+character/string/Datatypes
+---------------------------------------------
+
+char(n)         | fixed length string     |   code
+-               |  (pads with space)      |
+Varchar(n)      | variable-length(string)
+-               | (limit n chars)         |   email varchar(100)
+text            | unlimited-length string |   bio
+
+------------------------------------------------
+date and time functions
+------------------------------------------------
+Date               | only date(09-09-2002)    | DOB
+Time               | only time                | Login time
+Timestamp          | date+time                | created -at Timestamp
+Timestampz         | with timezone            | event- at timestamptz
+Interval           | time difference          | duration
+------------------------------------------------
+
+
