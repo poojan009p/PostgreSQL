@@ -1,0 +1,51 @@
+------------------------------------------------------------------
+
+PostgreSQl Constrains ,Clauses, Operator and Aggregation function.
+
+----------------------------------------------------------------------
+Constrains
+----------------------------------------------------------------------
+
+Primary Key         | Uniquely identify each rows           | ID serial Primary key
+Not null            | Column must have a value              | name Text not null 
+Unique              | no duplicate values allowed           |
+Default             | Provides default value if none        |
+Check               | validates values                      |
+Foreign key         | links one table to another            | 
+
+-----------------------------------------------------------------------
+
+Clauses
+
+-----------------------------------------------------------------------
+Select             | choose which columns to display 
+From               | specify the table 
+Where              | filter rows based on a condition 
+Group by           | group rows for aggregation 
+Having             | filter aggregated groups( Used after group by )
+Order by           | Sort the result in ascending or descending order 
+Limit              | limit the number of rows returned 
+As                 | Rename columns or the table temporarily(aliasing)
+Distinct           | Return only Unique values 
+-----------------------------------------------------------------------
+
+Operators
+
+-----------------------------------------------------------------------
+Comparision  -->  (=,!=,<,>,<=,>=)
+range        -->  (between)
+set          -->  (In)
+pattern      -->  (like)
+logical      -->  (and ,or ,not)
+-----------------------------------------------------------------------
+
+Aggregation function
+
+-----------------------------------------------------------------------
+Count()
+Sum()
+Avg()
+Min()
+Max()
+Round()
+-----------------------------------------------------------------------
